@@ -1,0 +1,14 @@
+{
+  "builds": [
+      {
+          "src": "src/style.css",
+          "use": "@vercel/static-build"
+      }
+  ],
+  "env": {
+      "NODE_ENV": "production"
+  },
+  "rewrites": [
+      { "source": "/", "destination": "/registration.html" }
+  ]
+}

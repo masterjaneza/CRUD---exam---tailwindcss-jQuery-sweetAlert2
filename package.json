@@ -1,0 +1,19 @@
+{
+  "name": "task-managment",
+  "version": "1.0.0",
+  "description": "Task Management",
+  "scripts": {
+    "build": "npx tailwindcss -i src/style.css -o public/output.css --minify",
+    "dev": "concurrently \"npx tailwindcss -i src/style.css -o public/output.css --watch\" \"live-server public\""
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "concurrently": "^8.0.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
