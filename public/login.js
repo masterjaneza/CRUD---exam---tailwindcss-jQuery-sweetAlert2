@@ -1,4 +1,3 @@
-// filepath: c:\Users\datoj\OneDrive\Desktop\Task Managment - Tailwind + jQuery\public\login.js
 let logEmail = document.getElementById('userEmail');
 let logPassword = document.getElementById('password1');
 
